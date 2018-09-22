@@ -1,0 +1,26 @@
+cases:
+- id: K = 3, A = [3, 8, 9, 7, 6]
+  input:
+    xs: [3, 8, 9, 7, 6]
+    k: 3
+  output: [9, 7, 6, 3, 8]
+- id: K = 8, A = [3, 8, 9, 7, 6]
+  input:
+    xs: [3, 8, 9, 7, 6]
+    k: 8
+  output: [9, 7, 6, 3, 8]
+- id: K = 1, A = [0, 0, 0]
+  input:
+    xs: [0, 0, 0]
+    k: 1
+  output: [0, 0, 0]
+- id: K = 4, A = [1, 2, 3, 4]
+  input:
+    xs: [1, 2, 3, 4]
+    k: 4
+  output: [1, 2, 3, 4]
+- id: K = 4, A = []
+  input:
+    xs: []
+    k: 4
+  output: []
